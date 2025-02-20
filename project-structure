@@ -1,0 +1,12 @@
+src/
+  ├── assets/
+  ├── components/
+  │   ├── BatteryStatus.vue
+  │   ├── MileageInfo.vue
+  │   └── DashboardCard.vue
+  ├── stores/
+  │   └── vehicle.js
+  ├── services/
+  │   └── api.js
+  ├── App.vue
+  └── main.js 
