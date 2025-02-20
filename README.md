@@ -4,6 +4,14 @@
 
 A Vue.js dashboard for monitoring your CUPRA Born vehicle. 
 
+### Light
+
+![Dashboard Light Mode](examples/dashboard-light.png?raw=true "Dashboard Light Mode")
+
+### Dark
+
+![Dashboard Dark Mode](examples/dashboard-dark.png?raw=true "Dashboard Dark Mode")
+
 ## Features
 
 - Real-time battery status monitoring
