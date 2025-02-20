@@ -2,7 +2,7 @@
 
 # CUPRA Born Dashboard
 
-A Vue.js dashboard for monitoring your CUPRA Born vehicle. 
+A dashboard for monitoring your CUPRA Born vehicle. 
 
 ### Light
 
