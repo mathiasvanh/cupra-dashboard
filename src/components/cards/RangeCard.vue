@@ -26,7 +26,8 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import { useVehicleStore } from '../stores/vehicle'
+import { useVehicleStore } from '@/stores/vehicle'
+import MetricCard from './MetricCard.vue'
 import { Card, CardContent } from '@/components/ui/card'
 
 const store = useVehicleStore()

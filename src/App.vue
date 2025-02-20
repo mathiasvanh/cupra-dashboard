@@ -4,10 +4,10 @@
       <Header />
       <main class="container mx-auto px-4 py-8">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-          <ChargingInfo />
-          <BatteryLevel />
-          <MileageInfo />
-          <RangeInfo />
+          <ChargingCard />
+          <BatteryCard />
+          <MileageCard />
+          <RangeCard />
           <ParkingMap class="md:col-span-4" />
         </div>
       </main>
@@ -18,10 +18,10 @@
 <script setup>
 import { useTheme } from '@/composables/theme'
 import Header from './components/Header.vue'
-import BatteryLevel from './components/BatteryLevel.vue'
-import MileageInfo from './components/MileageInfo.vue'
-import RangeInfo from './components/RangeInfo.vue'
-import ChargingInfo from './components/ChargingInfo.vue'
+import BatteryCard from './components/cards/BatteryCard.vue'
+import MileageCard from './components/cards/MileageCard.vue'
+import RangeCard from './components/cards/RangeCard.vue'
+import ChargingCard from './components/cards/ChargingCard.vue'
 import ParkingMap from './components/ParkingMap.vue'
 
 const { theme } = useTheme()
